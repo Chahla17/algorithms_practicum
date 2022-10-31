@@ -1,4 +1,3 @@
-import timeit
 def fib(n):
     if n == 0:
         return n
@@ -11,6 +10,5 @@ def fib(n):
 
 
 n = int(input('N Fibonacci number: > '))
-#print(f'Result is: {fib(n)}')
-time = timeit.timeit(lambda: fib(n), number=1)
-print(time)
+print(f'Result is: {fib(n)}')
+
