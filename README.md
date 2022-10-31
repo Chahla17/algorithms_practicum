@@ -1,1 +1,3 @@
-# algorithms_practicum
+Учебная практика
+Для запуска
+Python 3.10.7
